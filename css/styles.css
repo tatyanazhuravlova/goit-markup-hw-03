@@ -9,7 +9,16 @@
 фон кнопок особенности background: #f5f4fa;
 footer background: #e5e5e5;
 список портфолио: background: #F5F4FA;*/
-
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
 :root {
   --primary-text-color: #212121;
   --color-link: #2196f3;
@@ -317,6 +326,7 @@ img {
   margin: 0;
   padding: 0;
   margin-bottom: 50px;
+  text-align: center;
 }
 .team {
   background-color: var(--portfolio-ul-backgroundburlywood);
